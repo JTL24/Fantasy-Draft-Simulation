@@ -11,9 +11,6 @@ Uses FASTAPI with python to find and create players from a database.
 Create a local.env file in your .docker folder, with your api key (wrapped in quotes), like:
 FLY_API_TOKEN="[your api token value]"
 
-Edit docker-compose.yml
-  ucnomment the env_file section to use your local.env
-
 docker-compose build
 
 docker-compose up
